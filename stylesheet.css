@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+html * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+button{
+	height:3em;
+	width:8.5em;
+	margin:1em;
+	background-color:lightblue;
+}
+#mainwrapper header {
+	/*Header */
+	background-color: rgba(70,66,100,1.00);
+	overflow: auto;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+#mainwrapper header #logo {
+	width: 14%;
+	float: left;
+	padding-left: 2%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: rgba(46,46,46,1.00);
+}
+#mainwrapper header nav {
+	/*Nav bar containing links in header */
+	text-align: right;
+	padding:5px 3px;
+	width: 68%;
+	float: left;
+	color: rgba(146,146,146,1.00);
+}
+#mainwrapper nav ul {
+	list-style-type: none;
+	margin: 0;
+}
+#mainwrapper nav ul li{
+	display: inline;
+}
+img{ 
+	width:100%;
+	max-width: 100%;
+	height:auto;
+	vertical-align: middle;
+}
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1vw;
+}
+header{
+	position:fixed;
+	width:100%;
+	z-index: 1;
+}
+main{
+	width:100%;
+	height:100%;
+}
+.bold{
+	height: .5em;
+}
+.cars{
+	margn:10px;
+	padding: 5px;
+	width:300px;
+	height:300px;
+}
+.cars:hover {
+	box-shadow: 3px 3px 5px 5px gray;
+}
+td{
+	text-align: center;
+}
+#Redcar{
+	width: 72%;
+	height: 72%;
+}
+.Redcartext{
+	font-size: 50px;
+}
+#Cartext{
+	font-size: 40px;
+}
+body{
+	background: rgba(180,212,206,1.00);
+	background:linear-gradient(180deg, rgba(180,212,206,1.00) 0%, rgba(255,255,255,1) 65%);
+}
+.cars img{
+                  width:150px;
+                  height:150px;
+                  margin:10px;
+}
+td {
+	text-align: center;
+}
+footer{
+      margin-top:-3.5em;
+      padding-top:10em;
+}
+.footer-content{
+      width:64%;
+      margin:0 auto;
+      padding-bottom:1.7em;
+      font-size:16px
+}
+.footer-info{
+      clear:both;
+      padding-top:5em;
+}
+.footer-info p {
+      font-size:.8em;
+      color:#fff;
+      line-height:1.55;
+      max-width:36em;
+      margin-bottom:1.7em;
+}
+.footer-disclaimer{
+	width:60%;
+	position:relative;
+}
+.footer-credit{
+	width: 40%;
+	text-align: left;
+	position: relative;
+}
+.footer-credit hover{
+	text-decoration: none;
+}
+nav {
+      margin:10px;
+}
+nav img {
+      width:100px;
+      height:50px;
+}
+
+.artworks {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+}
+.artwork {
+      display: flex;
+}
+.artwork .artwork-piece {
+      padding: 8% 0 8% 8.5%;
+      width: 50%;
+}
+.artwork-piece figure {
+      position: relative;
+}
+.artwork-piece figure img {
+      position: relative;
+}
+.artwork .artwork-description {
+      background: #26223e;
+      color: #fff;
+      width: 50%;
+      padding: 3em 4em 3em 4em;
+}
+.artwork-title {
+      font-family: 'acumin-pro-extra-condensed', sans-serif;
+      font-size: 3em;
+      font-weight: 100;
+      padding: 0.5em 0 0 0;
+      letter-spacing: .36em;
+      text-transform: uppercase;
+      line-height: 1.5;
+      max-width: 10em;
+      margin-bottom: .5em;
+}
+.artwork-text {
+      font-size: 2.5em;
+      line-height: 1.9;
+      opacity: .8;
+      max-width: 20em;
+}
+footer{
+	margin-top: -3.5em;
+	padding-top: 10em;
+}
+.footer-content{
+	width:64%;
+	margin:0 auto;
+	padding-bottom: 1.7em;
+}
+#titletext{
+	margin:0.75em;
+	font-size:40px;
+}
+button:hover{
+	box-shadow: 1px 1px 5px 5px gray;
+}
+#leftbox{
+	text-align: center;
+	padding:10px;
+	display:table-cell;
+	width:50%;
+}
+#midbox{
+	text-align: center;
+	padding:10px;
+	display:table-cell;
+	width:25%;
+}
+#rightbox{
+	text-align: center;
+	padding:10px;
+	display:table-cell;
+	width:25%;
+	line-height:15px;
+	font-size:20px;
+}
+#midbox p{
+	line-height:2em;
+	font-size:20px;
+}
+body{
+	background: rgba(180,212,206,1.00);
+	background:linear-gradient(180deg, rgba(180,212,206,1.00) 0%, rgba(255,255,255,1) 65%);
+}
+.buy{
+	height:5em;
+	width:10em;
+	margin:1.5em;
+	font-weight: bolder;
+	background-color:darkblue;
+	color:white;
+}
+h2{
+	font-size:25px;
+	margin-bottom: 10px;
+}
+hr{
+	height: 0.25em;
+	background-color: black;
+margin:1em;}
+.buybuybuy h2{
+	margin:1em;
+}
+.buybuybuy img{
+	width:150px;
+	height:100px;
+	margin:10px;
+}
+.abouttable td{
+	padding:1em;
+	font-size: 20px;
+}
+.about {
+	font-size:20px;
+}
+h1{
+	font-size: 40px;
+}
+h4{
+	font-size: 25px;
+}
+.rep img{
+	width:500px;
+	height:500px;
+}
+.rep td{
+	font-size:40px;
+}
